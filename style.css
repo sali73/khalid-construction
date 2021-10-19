@@ -93,7 +93,7 @@
   word-spacing: 1px;
   line-height: 40px;
 }
-.et-main{
+.et-main {
   background: url(./img/bathrom1.jpg) ;
   background-position: center center;
   background-attachment: fixed;
@@ -103,25 +103,48 @@
   padding-top: 10px;
 }
 
-.et-main div{
+.et-main .et-slide div{
   background-color: rgb(199, 197, 197);
   padding: 3%;
   margin: 5%;
- 
 }
-.et-main div h4{
+.et-main .et-slide div h4{
   color: rgb(199, 135, 83);
   font-weight: 600;
   font-size: 25px;
-
 }
-.et-main div p{
+.et-main .et-slide div p{
   font-size: 22px;
   font-family: 'Times New Roman', Times, serif;
-
 }
-
-
+.et-slides{
+  background-color: rgb(75, 73, 73);
+  height: 500px;
+}
+.about h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  margin-top: -160px;
+}
+.about big{
+  color: rgb(199, 135, 83);
+  font-weight: 600;
+  font-size: 25px;
+  font-family: 'Architects Daughter', cursive;
+}
+.about-image ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.about-image ul li{
+  color: #f2f2f2;
+  list-style: none;
+}
+.Connect-slide{
+  background-color: rgb(75, 73, 73);
+  height: auto;
+}
 
 @media screen
   and (max-device-width: 640px)
