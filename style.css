@@ -1,12 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 * {
 	margin:0;
 	padding:0;
 	border:0;
+  font-family: 'Architects Daughter', cursive;
 }
 .page{
   background-color: dimgrey;
-
 }
 .header{
   position: fixed;
@@ -16,13 +18,18 @@
   height: 15%;
   background-color: rgba(49, 48, 48, .8);
   display: flex;
-  
-
 }
 .logo{
   color: rgb(255, 175, 110);
   margin: 2%;
-
+}
+.logo h3{
+  font-size: 43px;
+  font-family: 'Monoton', cursive;
+  box-shadow: 0 6px 4px -4px whitesmoke;
+}
+.logo small{
+  font-size: 23px;
 }
 .header a {
   float: left;
@@ -30,25 +37,22 @@
   text-align: center;
   padding: 7px;
   text-decoration: none;
-  font-size: 17px;
-  margin: 58px 15px 10px 20px;
+  font-size: 23px;
+  margin: 55px 15px 10px 10px;
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
 }
 .topnav-right {
-  margin-left: 10%;
+  margin-left: 5%;
 }
-/* Change the color of links on hover */
 .header a:hover {
-  background-color: #ddd;
-  color: black;
+  text-decoration-color: rgba(255, 175, 110, 1);
+  color: #f2f2f2;
 }
-
-/* Add a color to the active/current link */
 .header a.active {
   background-color: #04AA6D;
   color: white;
 }
-
-
 .header-img{
   background: url(./img/14.jpg) ;
   background-position: center center;
@@ -56,6 +60,64 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
+
+}
+.gran-image{
+  background-color: rgba(255, 175, 110, .6);
+  /* margin-top:-60px ;
+  margin-right: 40px;
+  margin-left: 40px; */
+  width: 75%;
+  margin: -80px auto;
+  padding: 15px;
+}
+.gran-image img{
+   width: 160px;
+   height: 150px;
+   border-radius: 50%;
+   padding: 10px 20px;
+   margin: 0 auto;
+   border-bottom: 1px solid rgb(255, 255, 255) ;
+   
+}
+.gran-image div{
+  margin-left: 13%;
+}
+.intro{
+  margin-top: 16%;
+  margin-bottom: 11%;
+}
+.intro h4{
+  color: #f2f2f2;
+  font-weight: 500;
+  word-spacing: 1px;
+  line-height: 40px;
+}
+.et-main{
+  background: url(./img/bathrom1.jpg) ;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  padding-top: 10px;
+}
+
+.et-main div{
+  background-color: rgb(199, 197, 197);
+  padding: 3%;
+  margin: 5%;
+ 
+}
+.et-main div h4{
+  color: rgb(199, 135, 83);
+  font-weight: 600;
+  font-size: 25px;
+
+}
+.et-main div p{
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -68,10 +130,8 @@
     font-size: 14px;
     margin: 0px;
   }
-
 .logo{
   padding: 6px;
   color: white;
-
 }
 }
