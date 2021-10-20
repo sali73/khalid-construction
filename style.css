@@ -144,7 +144,46 @@
 .Connect-slide{
   background-color: rgb(75, 73, 73);
   height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 200px;
 }
+.conect-info{
+  border: 2px double rgb(255, 175, 110);
+  margin-right: 30px;
+}
+.Connect-slide img{
+  height: 180px;
+  width: 500px;
+}
+.Connect-slide h3{
+  color: rgb(199, 135, 83);
+  padding-top: 15px;
+  padding-left: 25px;
+}
+.Connect-slide h4{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  padding-left: 25px;
+}
+.contact{
+  padding: 20px;
+  border: 2px double rgb(255, 175, 110);
+  margin-right: 10px;
+}
+input{
+ padding: 5px 15px; 
+}
+button{
+  padding: 5px 10px;
+  background-color:rgb(199, 135, 83);
+  color: #f2f2f2;
+}
+
+
+
+
 
 @media screen
   and (max-device-width: 640px)
