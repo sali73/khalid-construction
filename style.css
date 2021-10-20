@@ -5,7 +5,7 @@
 	margin:0;
 	padding:0;
 	border:0;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Architects Daughter', cursive; 
 }
 .page{
   background-color: dimgrey;
@@ -92,6 +92,7 @@
   font-weight: 500;
   word-spacing: 1px;
   line-height: 40px;
+ padding: 0px 90px;
 }
 .et-main {
   background: url(./img/bathrom1.jpg) ;
@@ -107,6 +108,11 @@
   background-color: rgb(199, 197, 197);
   padding: 3%;
   margin: 5%;
+  
+}
+.et-main .et-slide .servic:hover {
+  padding-left: 2.5rem;
+  border-left: 0.5rem solid #ffffff;
 }
 .et-main .et-slide div h4{
   color: rgb(199, 135, 83);
@@ -117,9 +123,43 @@
   font-size: 22px;
   font-family: 'Times New Roman', Times, serif;
 }
-.et-slides{
+.tab-Gallery{
   background-color: rgb(75, 73, 73);
-  height: 500px;
+  height: auto;
+  padding: 90px;
+}
+div.gallery {
+  border: 1px solid rgb(255, 175, 110);
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 10px rgb(255, 175, 110);
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: 300px;
+}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+.link{
+  text-align: center;
+  text-decoration: none;
+  margin-top: 50px;
+}
+.link a{
+  margin-top: 20px;
+  color: #f2f2f2;
+  font-size: 20px;
+  border: 1px solid rgb(255, 175, 110);
+  background-color: rgb(255, 175, 110);
+  padding: 10px;
 }
 .about h3{
   font-family: 'Times New Roman', Times, serif;
@@ -132,12 +172,12 @@
   font-size: 25px;
   font-family: 'Architects Daughter', cursive;
 }
-.about-image ul{
+.about-logo {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.about-image ul li{
+.about-logo  li{
   color: #f2f2f2;
   list-style: none;
 }
@@ -146,10 +186,11 @@
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 30px 200px;
+  padding: 50px 180px;
 }
 .conect-info{
   border: 2px double rgb(255, 175, 110);
+  box-shadow: 15px 15px rgba(0,0,0,.15);
   margin-right: 30px;
 }
 .Connect-slide img{
@@ -169,8 +210,9 @@
 }
 .contact{
   padding: 20px;
-  border: 2px double rgb(255, 175, 110);
+  border: 2px solid rgb(255, 175, 110);
   margin-right: 10px;
+  box-shadow: 15px 15px rgba(0,0,0,.15);
 }
 input{
  padding: 5px 15px; 
@@ -180,20 +222,45 @@ button{
   background-color:rgb(199, 135, 83);
   color: #f2f2f2;
 }
-
-
-
-
-
-@media screen
-  and (max-device-width: 640px)
-  and (orientation: landscape){
-  .header a {
-    font-size: 14px;
-    margin: 0px;
-  }
-.logo{
-  padding: 6px;
-  color: white;
+.submit{
+  margin-left: 30%;
 }
+footer{
+    background-color: rgb(63, 61, 61);
+    height: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5px;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
