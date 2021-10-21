@@ -11,6 +11,7 @@
     <title>Document</title>
 </head>
 <body>
+ 
     <div class="page">
         <section class="">
             <div class="header">
@@ -286,14 +287,11 @@
             <h6>© Copyright 2021.  NKBA Construction LLC. </h6>
         </div>
     </footer>
+    <div id="pastComments" style="background-color: brown;">
+      bkjvbkjvkjvbkjbv
+    </div>
 </div>
 
-
-
-
-
-
-  <p id="pastcomments"> helllllllll</p>
 
 
 
@@ -345,9 +343,34 @@
   insBtn.addEventListener("click", AddDocument_AutoID)
   
 // /////get data/////
+var pastData = document.getElementById('pastComments')
+
+function AddItemsToTable(usercomment , nameofuser){
+
+  let singleDiv= document.createElement('div')
+  let singleName= document.createElement('h3')
+  let singleComment= document.createElement('h6')
+
+  singleName.innerHTML = nameofuser;
+  singleComment.innerHTML = usercomment;
+
+  singleDiv.appendChild(singleName)
+  singleDiv.appendChild(singleComment)
+
+  pastData.appendChild(singleDiv)
+
+}
+function AddAllItemsToTable(allComments){
+  pastData.innerHTML='';
+  allComments.forEach(element =>{
+    AddItemsToTable(element.nameofuser, element.usercomment)
+  })
+}
+////////////////////////////////////
+
 async function GetAllDataAtOnce(){
   const querySnapshot = await getDocs(collection(db,'theCommentsList'));
-  var allComments=[];
+  var allComments = [];
   querySnapshot.forEach(doc=>{
     allComments.push(doc.data());
   })
@@ -367,25 +390,6 @@ async function GetAllDataRealTime(){
   })
 }
 window.onload = GetAllDataRealTime
-// function getData(){
-//   firebase.database().ref('/').once('value', function (snapshot){
-//     snapshot.forEach(function(childSnapshot){
-//       var childKey = childSnapshot.key;
-//       var childData = childSnapshot.val();
-//       document.getElementById("pastcomments").innerHTML = childSnapshot[' nameofuser'] + ',' + childSnapshot['usercomment']
-//     })
-//   })
-// }
-// getData()
-
-
-
-// db.collection("theCommentsList").get().then(querySnapshot =>{
-//   querynapshot.forEach(doc =>{
-//     console.log(doc.data())
-//   })
-// })
-
 
 </script>
 
