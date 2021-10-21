@@ -18,11 +18,14 @@
                     <h3> NKBA <small> CONSTRUCTION LLC.</small></h3>
                 </div>
                 <div class="topnav-right">
-                    <a class="et-hero-tab" href="#tab-Service"> Service</a>
-                    <a class="et-hero-tab" href="#tab-Gallery"> Gallery</a>
+                    <a class="et-hero-tab" href="#tab-Service"> Services</a>
                     <a class="et-hero-tab" href="#tab-about">About Us</a>
-                    <a class="et-hero-tab" href="#tab-Connect">Connect Us</a>
+                    <a class="et-hero-tab" href="#tab-Gallery"> Gallery</a>
+                    <a class="et-hero-tab" href="#tab-Connect">Contact US</a>
                 </div> 
+                <div class="calling area">
+                    <a href="tel:813-995-4978"><h1>(813)995-4978</h1></a>
+                </div>
             </div>
             <div class="header-img">
             </div>
@@ -51,28 +54,32 @@
       <main class="et-main">
         <section class="et-slide" id="tab-Service">
             <div class="servic">
-                <h4>Kitchen and Bathroom Remodels</h4>
+                <img class="img1" src="./img/12.jpg" alt="">
+                <h4>Kitchen Remodels</h4>
                 <p>These are the two rooms that can increase the value of your house the most when you
                     renovate. And let’s face it, you spend a lot of time in them, so why not make them more
                     organized, efficient and attractive?</p>
-
                 <p>For example, you can expand the footprint of your bathroom to add a vanity with two sinks, 
                     or open up a wall between the kitchen and dining room for a more modern “Great Room” feel. 
                     The options for kitchen renovations and bathroom makeovers are almost endless. That’s why it’s best to work with a professional remodeler who can listen to your needs, offer options based on your budget,
                     and give you the results that meet the highest standards in the industry.</p>
-            
+                    <img class="img2"  src="./img/bath7.jpg" alt=""><br><br>
+                    <h4>Bathroom Remodels</h4>
+            <p>A bathroom can be a sanctuary in a home; a comfortable space where we can retreat and escape from the stresses of work, family and the world in general. A comforting bath, a relaxing shower, and other amenities make bathrooms important parts of any home.</p>
+            <br><img class="img1"  src="./img/home-office.jpg" alt=""><br>     
+            <br><br>
                <h4> Create a Home Office</h4>
                 <p>Whether you work from home, run a business, or just need a dedicated 
                     space to pay bills, a home office can be a great productivity booster.
                     ing contractors can help you convert an unused room or even create a new room by
                      adding or removing walls.</p>
-            
+                     <img class="img2"  src="./img/bath7.jpg" alt=""><br><br>
                 <h4>Add a Utility Room or Mudroom</h4>
                 <p>An all-purpose room can be added to your house or “borrowed” from part of the garage
                      or basement. An attractive mudroom is ideal for taking off muddy shoes (or drying off a wet dog),
                       and depositing school or office stuff. It can include a bench to sit on while you pull off your boots, hooks to hang raincoats and sports gear, and even a compact washer 
                     and dryer so dirty sports uniforms can go right into the laundry.</p>
-           
+                    <img class="img1"  src="./img/bath7.jpg" alt=""><br><br>
                 <h4>Whole Home Remodels and Additions</h4>
                 <p>A total renovation of your home is a big step. But if well done, it can mean incredible
                      satisfaction for the homeowner and a huge jump in value for the house. This often 
@@ -259,6 +266,18 @@
                             <li> <a className='' href='https://twitter.com/salimoh25979'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/48/Active-Twitter-icon.png' alt = ''/></a></li>
                         </ul>                  
                     </div> -->
+                    <div id="all-comments">
+                        <h3>Comments</h3>
+                        <ul id="pastcomments"></ul>
+                        <form id="newcomment" action="">
+                            <label for="tbName"> Name</label><br>
+                            <input id="tbName" type="text" maxlength="20" required><br>
+                            <label for="tbComment"> Comment</label><br>
+                            <textarea name="" id="tbComment" maxlength="4096" style="width: 50%;" required></textarea><br>
+                            <input type="submit" id="btnSubmitComment" value="Submit">
+
+                        </form>
+                    </div>
             <div>
         </section>
       </main>
@@ -269,5 +288,32 @@
         </div>
     </footer>
 </div>
+
+
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyD3Wjh2bO229-ienvQuxAfXMe1t1Dt_n30",
+      authDomain: "comments-a9d5d.firebaseapp.com",
+      databaseURL: "https://comments-a9d5d-default-rtdb.firebaseio.com",
+      projectId: "comments-a9d5d",
+      storageBucket: "comments-a9d5d.appspot.com",
+      messagingSenderId: "394272737404",
+      appId: "1:394272737404:web:a6a54d383f09b5205ea1f9",
+      measurementId: "G-8R55P7SSVY"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </body>
 </html>

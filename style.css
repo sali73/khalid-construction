@@ -12,8 +12,6 @@
 }
 .header{
   position: fixed;
-  /* bottom: 0;
-  right: 0; */
   width:100%;
   height: 15%;
   background-color: rgba(49, 48, 48, .8);
@@ -53,6 +51,31 @@
   background-color: #04AA6D;
   color: white;
 }
+.calling {
+  padding-left: 9%;
+}
+
+.calling h1 {
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1;
+  color: white;
+  letter-spacing: 7px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.calling a{
+  text-decoration: none;
+}
+.area {
+  animation: blur .9s ease-out infinite;
+}
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px rgb(167, 164, 164),
+      0px 0px 10px rgb(209, 208, 208), 
+      0px -10px 100px #7B96B8;
+  }
+}
 .header-img{
   background: url(./img/14.jpg) ;
   background-position: center center;
@@ -60,13 +83,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
-
 }
 .gran-image{
   background-color: rgba(255, 175, 110, .6);
-  /* margin-top:-60px ;
-  margin-right: 40px;
-  margin-left: 40px; */
   width: 75%;
   margin: -80px auto;
   padding: 15px;
@@ -77,8 +96,7 @@
    border-radius: 50%;
    padding: 10px 20px;
    margin: 0 auto;
-   border-bottom: 1px solid rgb(255, 255, 255) ;
-   
+   border-bottom: 1px solid rgb(255, 255, 255) ;  
 }
 .gran-image div{
   margin-left: 13%;
@@ -89,10 +107,11 @@
 }
 .intro h4{
   color: #f2f2f2;
-  font-weight: 500;
+  font-weight: 600;
   word-spacing: 1px;
   line-height: 40px;
  padding: 0px 90px;
+ letter-spacing: 2px;
 }
 .et-main {
   background: url(./img/bathrom1.jpg) ;
@@ -105,7 +124,7 @@
 }
 
 .et-main .et-slide div{
-  background-color: rgb(199, 197, 197);
+  background-color: rgb(240, 235, 235);
   padding: 3%;
   margin: 5%;
   
@@ -114,13 +133,28 @@
   padding-left: 2.5rem;
   border-left: 0.5rem solid #ffffff;
 }
+.img1{
+  width: 350px;
+  height:230px;
+  float: right;
+  border: 2px solid white;
+  margin-left: 20px;
+}
+.img2{
+  width: 350px;
+  height:230px;
+  float: left;
+  border: 2px solid white;
+  margin-right: 20px;
+}
+
 .et-main .et-slide div h4{
   color: rgb(199, 135, 83);
   font-weight: 600;
   font-size: 25px;
 }
 .et-main .et-slide div p{
-  font-size: 22px;
+  font-size: 17px;
   font-family: 'Times New Roman', Times, serif;
 }
 .tab-Gallery{
@@ -178,7 +212,7 @@ div.gallery img {
   justify-content: space-around;
 }
 .about-logo  li{
-  color: #f2f2f2;
+  color: #d48f61;
   list-style: none;
 }
 .Connect-slide{
