@@ -14,7 +14,7 @@
   position: fixed;
   width:100%;
   height: 15%;
-  background-color: rgba(49, 48, 48, .8);
+  background-color: rgba(49, 48, 48, .9);
   display: flex;
 }
 .logo{
@@ -47,14 +47,9 @@
   text-decoration-color: rgba(255, 175, 110, 1);
   color: #f2f2f2;
 }
-.header a.active {
-  background-color: #04AA6D;
-  color: white;
-}
 .calling {
   padding-left: 9%;
 }
-
 .calling h1 {
   font-size: 1.3em;
   font-weight: 700;
@@ -102,8 +97,8 @@
   margin-left: 13%;
 }
 .intro{
-  margin-top: 16%;
-  margin-bottom: 11%;
+  margin-top: 10%;
+  margin-bottom: 9%;
 }
 .intro h4{
   color: #f2f2f2;
@@ -122,12 +117,10 @@
   height: auto;
   padding-top: 10px;
 }
-
 .et-main .et-slide div{
   background-color: rgb(240, 235, 235);
   padding: 3%;
-  margin: 5%;
-  
+  margin: 10% 5%;
 }
 .et-main .et-slide .servic:hover {
   padding-left: 2.5rem;
@@ -147,7 +140,6 @@
   border: 2px solid white;
   margin-right: 20px;
 }
-
 .et-main .et-slide div h4{
   color: rgb(199, 135, 83);
   font-weight: 600;
@@ -198,7 +190,7 @@ div.gallery img {
 .about h3{
   font-family: 'Times New Roman', Times, serif;
   font-size: 22px;
-  margin-top: -160px;
+  margin-top: -95px;
 }
 .about big{
   color: rgb(199, 135, 83);
@@ -215,12 +207,67 @@ div.gallery img {
   color: #d48f61;
   list-style: none;
 }
+.about .about-service-area{
+  display: flex;
+}
+.about .about-service-area ul{
+  margin-top: -120px;
+  margin-bottom: -1200px;
+  
+}
+
+
+.review{
+    background-color: rgb(75, 73, 73);
+    height: auto;
+    padding: 4%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+.review-parts {
+  background-color:rgb(199, 199, 199);
+  padding: 10px;
+}
+.reviews-window{
+  height: 400px;
+  overflow: scroll;
+}
+.review h3{
+  text-align: center;
+  color: rgb(255, 175, 110);
+  font-size: 30px;
+}
+.review-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.review-card div{
+  border: 1px solid rgb(153, 151, 151);
+  background-color: rgb(153, 151, 151);
+  margin: 20px;
+  padding: 10px;
+  height: 220px;
+  width: 500px;
+}
+.review-card h6{
+  color: white;
+  font-size: 25px;
+  height: 150px;
+}
+.review-card h3{
+  color: rgb(255, 175, 110);
+  font-size: 20px;
+  border-top: 1px solid rgb(75, 73, 73);
+  padding-top: 10px;
+}
 .Connect-slide{
   background-color: rgb(75, 73, 73);
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 50px 180px;
+  padding: 50px 20px;
 }
 .conect-info{
   border: 2px double rgb(255, 175, 110);
@@ -298,3 +345,14 @@ footer{
   display: table;
   clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
