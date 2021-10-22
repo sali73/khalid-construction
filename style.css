@@ -268,7 +268,7 @@ div.gallery img {
 }
 .review h3{
   text-align: center;
-  color: rgb(255, 175, 110);
+  color: rgb(202, 140, 90);
   font-size: 30px;
   margin-top: 5px;
 }
@@ -300,7 +300,7 @@ div.gallery img {
   font-size: 20px;
   padding: 10px;
   font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(255, 175, 110);
+  background-color: rgb(201, 147, 103);
   text-align: center;
   margin-bottom: 10px;
   margin-top: -5px;
@@ -324,7 +324,7 @@ div.gallery img {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 50px 20px;
+  padding: 30px 0px;
 }
 label{
   padding-top: 10px;
@@ -335,43 +335,43 @@ label{
   color: #f2f2f2;
   font-family: 'Times New Roman', Times, serif;
   margin-top: 10px;
-  /* margin-left: 45%; */
-  
-  
+  /* margin-left: 45%; */ 
 }
 .conect-info{
-  margin-right: 30px;
-  width: 400px;
-}
-.Connect-slide img{
-  height: 180px;
-  width: 400px;
+  margin-right: 10px;
+  width: 300px;
 }
 .Connect-slide h3{
   color: rgb(199, 135, 83);
   padding-top: 15px;
-  font-size: 22px;
+  font-size: 18px;
+  margin-top: -15px;
 }
 .Connect-slide h4{
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
   color: white;
   padding-left: 25px;
 }
+.Connect-slide h5{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 16px;
+  
+}
 .contact{
-  padding: 20px;
+  margin-top: -20px;
   margin-right: 10px;
 }
 input{
- padding: 5px 15px; 
+ padding-top: 5px;
 }
 button{
-  padding: 5px 10px;
   background-color:rgb(199, 135, 83);
   color: #f2f2f2;
 }
 .submit{
-  margin-left: 30%;
+  margin-left: 20%;
 }
 footer{
     background-color: rgb(63, 61, 61);
