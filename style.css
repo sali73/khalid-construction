@@ -190,7 +190,8 @@ div.gallery img {
 .about h3{
   font-family: 'Times New Roman', Times, serif;
   font-size: 22px;
-  margin-top: -95px;
+  margin-top: 75px;
+  margin-bottom: 30px;
 }
 .about big{
   color: rgb(199, 135, 83);
@@ -203,22 +204,13 @@ div.gallery img {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.about-logo  li{
-  color: #d48f61;
+.about li{
   list-style: none;
-}
-.about .about-service-area{
-  display: flex;
-}
-.about .about-service-area ul{
-  margin-top: -120px;
-  margin-bottom: -1200px;
-  
+  color: rgb(199, 135, 83);
 }
 
-
-.review{
-    background-color: rgb(75, 73, 73);
+.about{
+  background-color: rgb(240, 235, 235);
     height: auto;
     padding: 5%;
     margin-top: 10%;
@@ -227,10 +219,9 @@ div.gallery img {
 .review-parts {
   background-color:rgb(167, 167, 167);
   padding: 10px;
-  margin-bottom: 40px;
 }
 .reviews-window{
-  height: 450px;
+  height: 380px;
   overflow: scroll;
   width: 500px;
 }
@@ -238,7 +229,7 @@ div.gallery img {
   text-align: center;
   color: rgb(255, 175, 110);
   font-size: 30px;
-  padding-top: 10px;
+  margin-top: 5px;
 }
 .review-card{
   display: flex;
@@ -249,9 +240,9 @@ div.gallery img {
   border: 1px solid rgb(250, 247, 247);
   background-color: rgb(250, 247, 247);
   border-radius: 2%;
-  margin: 30px;
+  margin: 10px;
   padding: 10px;
-  height: 180px;
+  height: 150px;
   width: 400px;
   box-shadow: 0 0 8px rgb(87, 86, 86);
 }
@@ -269,17 +260,20 @@ div.gallery img {
   font-weight: 700;
   font-size: 20px;
   padding: 10px;
-  text-align: left;
   font-family: 'Times New Roman', Times, serif;
   background-color: rgb(255, 175, 110);
   text-align: center;
   margin-bottom: 10px;
+  margin-top: -5px;
 }
 .review-form{
   margin-left: 10%;
 }
-.review-form h4{
-color: rgb(248, 247, 245);}
+.review-form h5{
+  color: rgb(199, 135, 83);
+  font-weight: 600;
+  font-size: 25px;
+}
 .Connect-slide{
   background-color: rgb(75, 73, 73);
   height: auto;
@@ -287,19 +281,28 @@ color: rgb(248, 247, 245);}
   justify-content: space-around;
   padding: 50px 20px;
 }
+label{
+  padding-top: 10px;
+}
+#btnSubmitComment{
+  padding: 5px 10px;
+  background-color:rgb(199, 135, 83);
+  color: #f2f2f2;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+}
 .conect-info{
-  border: 2px double rgb(255, 175, 110);
-  box-shadow: 15px 15px rgba(0,0,0,.15);
   margin-right: 30px;
+  width: 400px;
 }
 .Connect-slide img{
   height: 180px;
-  width: 500px;
+  width: 400px;
 }
 .Connect-slide h3{
   color: rgb(199, 135, 83);
   padding-top: 15px;
-  padding-left: 25px;
+  font-size: 22px;
 }
 .Connect-slide h4{
   font-size: 20px;
@@ -309,9 +312,7 @@ color: rgb(248, 247, 245);}
 }
 .contact{
   padding: 20px;
-  border: 2px solid rgb(255, 175, 110);
   margin-right: 10px;
-  box-shadow: 15px 15px rgba(0,0,0,.15);
 }
 input{
  padding: 5px 15px; 
