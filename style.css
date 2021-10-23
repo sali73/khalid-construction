@@ -96,7 +96,7 @@
   height: 600px;
 }
 .gran-image{
-  background-color: rgb(177, 0, 0);
+  background-color: rgba(177, 0, 0,.8);
   width: 74%;
   margin: -80px auto;
   padding: 15px;
@@ -117,6 +117,7 @@
 .intro{
   margin-top: 10%;
   margin-bottom: 5%;
+  
 }
 .intro h4{
   color: #f2f2f2;
@@ -178,6 +179,7 @@
   background-color: rgb(75, 73, 73);
   height: auto;
   padding: 90px;
+  box-shadow: 0 0 8px rgb(87, 86, 86);
 }
 div.gallery {
   border: 2px solid rgb(196, 193, 193);
@@ -242,6 +244,7 @@ div.gallery img {
     padding: 5%;
     margin-top: 10%;
     margin-bottom: 10%;   
+    box-shadow: 0 0 8px rgb(87, 86, 86);
 }
 .about-button{
   padding: 0% 10%;
@@ -320,10 +323,12 @@ div.gallery img {
 }
 .Connect-slide{
   background-color: rgb(75, 73, 73);
-  height: auto;
+  box-shadow: 0 0 8px rgb(87, 86, 86);
+
+  height: 490px;
   display: flex;
   justify-content: space-around;
-  padding: 30px 0px;
+  padding: 50px 0px 30px 0px;
 }
 label{
   padding-top: 10px;
@@ -374,13 +379,30 @@ button{
 }
 footer{
     background-color: rgb(48, 47, 47);
-    height: 50px;
+    height: 60px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 5px;
-    padding-top: 15px;
+    padding-top: 5px;
 }
-
+.social-media{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.social-media h6{
+  color: red;
+}
+.social-media ul {
+  display: flex;
+}
+.social-media ul li{
+  list-style: none;
+  /* width: 10%; */
+  padding: 10px;
+}
+.social-media ul li img{
+  width: 85%;
+}
 .containers {
   max-width: 1300px;
   margin: auto;
@@ -445,139 +467,6 @@ footer{
 /* gallary 
 ///////////////////////////// */
 
-body, body *{
-  padding: 0px;
-  margin: 0px;
-}
-
-/*all slides*/
- .slide{
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  background-position: 50% 50%;
-  transition: 0.3s;
-  display: none;
-}
-
-/*all buttons*/
-.button{
-  background-color: rgba(0,0,0,0.6);
-  color: #FFF;
-  position: absolute;
-  top: calc(50% - 25px);
-  height: 70px;
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: arial;
-  font-size: 30px;
-  font-weight: 500;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-/*all button arrows*/
-.button span{
-  border: 10px solid transparent;
-}
-
-/*button hover*/
-.button:hover{
-  background-color: rgba(0,0,0,1);
-}
-
-/*back button*/
-.back{
-  left: 0px;
-  border-radius: 0 10px 10px 0;
-}
-
-/*back button arrrow*/
-.back span{
-  border-right-color: #FFF;
-}
-
-/*next button*/
-.next{
-  right: 0px;
-  border-radius: 10px 0 0 10px;
-}
-
-/*next button arrow*/
-.next span{
-  border-left-color: #FFF;
-}
-
-/*all radio set*/
-.slideradio{
-  display: none;
-}
-
-/*show slide that is adjacent to checked radio control*/
-.slideradio:checked + .slide{
-  display: block;
-}
-
-/* thumbnail drawer */
-.thumbwrapper{
-  display: flex;
-  height: 20%;
-  position: absolute;
-  bottom: 10px;
-  width: calc(100% - 20px);
-  left: 10px;
-}
-
-/* each thumbnail */
-.thumb{
-  height: 100%;
-  background-position: 50% 50%;
-  background-size: cover;
-  opacity: 0.6;
-  cursor: pointer;
-  transition: 0.3s;
-  margin: 0px 5px;
-  flex: 20 20 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
-/* thumb hover effect */
-.thumb:hover{
-  opacity: 0.9;
-}
-
-/* display style for selected slide */
-/* this could be done better with sass for unknown number of slides, but could also be left out as non-essential */
-/* just keeping everything straight css for understandable demo */
-#slide0:checked ~ .thumbwrapper .slide0{
-  opacity: 1;
-  box-shadow: 0 0 30px rgba(0,0,0,1);
-  transform: scale(1.05);
-}
-#slide1:checked ~ .thumbwrapper .slide1{
-  opacity: 1;
-  box-shadow: 0 0 30px rgba(0,0,0,1);
-  transform: scale(1.05);
-}
-#slide2:checked ~ .thumbwrapper .slide2{
-  opacity: 1;
-  box-shadow: 0 0 30px rgba(0,0,0,1);
-  transform: scale(1.05);
-}
-#slide3:checked ~ .thumbwrapper .slide3{
-  opacity: 1;
-  box-shadow: 0 0 30px rgba(0,0,0,1);
-  transform: scale(1.05);
-}
-#slide4:checked ~ .thumbwrapper .slide4{
-  opacity: 1;
-  box-shadow: 0 0 30px rgba(0,0,0,1);
-  transform: scale(1.05);
-}
-
-
 
 
 
@@ -608,7 +497,7 @@ margin: 10% 0px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  padding: 0px 50px 10px 50px;
+  padding: 0px 50px 50px 50px;
 }
 .thumbnail {
   width: 22%;
