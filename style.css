@@ -18,7 +18,8 @@
   display: flex;
 }
 .logo{
-  color: rgb(255, 175, 110);
+  color: rgb(255, 0, 0);
+  /* color: rgb(255, 175, 110); */
   margin: 2%;
 }
 .blue-color {
@@ -59,7 +60,7 @@
   margin-left: 5%;
 }
 .header a:hover {
-  text-decoration-color: rgba(255, 175, 110, 1);
+  text-decoration-color: rgba(255, 0, 0, 1);
   color: #f2f2f2;
 }
 .calling {
@@ -95,8 +96,8 @@
   height: 600px;
 }
 .gran-image{
-  background-color: rgba(255, 175, 110, .6);
-  width: 75%;
+  background-color: rgb(177, 0, 0);
+  width: 74%;
   margin: -80px auto;
   padding: 15px;
   box-shadow: 0 0 8px rgb(77, 76, 76);
@@ -104,18 +105,18 @@
 }
 .gran-image img{
    width: 160px;
-   height: 150px;
+   height: 170px;
    border-radius: 50%;
    padding: 10px 20px;
    margin: 0 auto;
-   border-bottom: 1px solid rgb(255, 255, 255) ;  
+   border-bottom: 2px solid rgb(255, 255, 255) ;  
 }
 .gran-image div{
   margin-left: 13%;
 }
 .intro{
-  margin-top: 11%;
-  margin-bottom: 7%;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 .intro h4{
   color: #f2f2f2;
@@ -124,8 +125,7 @@
  letter-spacing: 2px;
  text-align: center;
  letter-spacing: 5px;
- word-spacing: 1px;
- line-height: 50px;
+ line-height: 40px;
 }
 .et-main {
   background: url(./img/bathrom1.jpg) ;
@@ -166,7 +166,7 @@
   height:420px;
 }
 .et-main .et-slide div h4{
-  color: rgb(253, 152, 69);
+  color: rgb(255, 0, 0);
   font-weight: 600;
   font-size: 30px;
   text-shadow: 0 0 2px rgb(83, 83, 83);
@@ -209,12 +209,12 @@ div.gallery img {
   margin-top: 20px;
   color: #f2f2f2;
   font-size: 20px;
-  border: 1px solid rgb(199, 135, 83);
+  border: 1px solid rgb(255, 0, 0);
   padding: 15px;
   font-family: 'Times New Roman', Times, serif;
-  background-color:rgb(199, 135, 83);
+  background-color:rgb(255, 0, 0);
   text-decoration: none;
-  box-shadow: 0px 0px 5px rgb(46, 46, 46);
+  box-shadow: 0px 0px 5px rgb(228, 228, 228);
 }
 .about h3{
   font-size: 22px;
@@ -223,7 +223,7 @@ div.gallery img {
   font-family: 'Times New Roman', Times, serif;
 }
 .about big{
-  color: rgb(199, 135, 83);
+  color: rgb(255, 0, 0);
   font-weight: 600;
   font-size: 25px;
   font-family: 'Architects Daughter', cursive;
@@ -235,7 +235,7 @@ div.gallery img {
 }
 .about li{
   list-style: none;
-  color: rgb(240, 146, 70);
+  color: rgb(255, 0, 0);
 }
 .about{
   background-color: rgb(240, 235, 235);
@@ -268,7 +268,7 @@ div.gallery img {
 }
 .review h3{
   text-align: center;
-  color: rgb(202, 140, 90);
+  color: rgb(255, 255, 255);
   font-size: 30px;
   margin-top: 5px;
 }
@@ -295,12 +295,12 @@ div.gallery img {
   text-align: center;
 }
 .review-card h3{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 20px;
   padding: 10px;
   font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(201, 147, 103);
+  background-color: rgb(255, 0, 0);
   text-align: center;
   margin-bottom: 10px;
   margin-top: -5px;
@@ -331,7 +331,7 @@ label{
 }
 #btnSubmitComment{
   padding: 5px 10px;
-  background-color:rgb(199, 135, 83);
+  background-color:rgb(255, 0, 0);
   color: #f2f2f2;
   font-family: 'Times New Roman', Times, serif;
   margin-top: 10px;
@@ -342,7 +342,7 @@ label{
   width: 300px;
 }
 .Connect-slide h3{
-  color: rgb(199, 135, 83);
+  color: rgb(255, 0, 0);
   padding-top: 15px;
   font-size: 18px;
   margin-top: -15px;
@@ -367,14 +367,14 @@ input{
  padding-top: 5px;
 }
 button{
-  background-color:rgb(199, 135, 83);
+  background-color:rgb(255, 0, 0);
   color: #f2f2f2;
 }
 .submit{
   margin-left: 20%;
 }
 footer{
-    background-color: rgb(63, 61, 61);
+    background-color: rgb(48, 47, 47);
     height: 50px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -382,6 +382,205 @@ footer{
     padding-top: 15px;
 }
 
+.containers {
+  max-width: 1300px;
+  margin: auto;
+  padding: 10px;
+}
+.gallery__card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gallery__title {
+  margin: 50px 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: rgb(255, 0, 0);
+}
+.gallery__card {
+  min-width: 350px;
+  height: 250px;
+  margin: 5px 5px;
+  background: #a9dfbf;
+  background-size: 100%;
+  background-position: top left;
+  transition: background-position 2s;
+  cursor: pointer;
+}
+.gallery__card:nth-child(1) {
+  background-image: url("./img/12.jpg");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+}
+.gallery__card:nth-child(2) {
+  background-image: url("https://cdn.pixabay.com/photo/2019/09/10/22/05/mountains-4467436_1280.jpg");
+}
+.gallery__card:nth-child(3) {
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/29/07/35/water-3271579_1280.jpg");
+}
+.gallery__card:nth-child(4) {
+  background-image: url("https://cdn.pixabay.com/photo/2019/11/21/00/05/mountains-4641428_1280.jpg");
+}
+.gallery__card:nth-child(5) {
+  background-image: url("https://cdn.pixabay.com/photo/2017/04/19/10/47/amalfi-2241861_1280.jpg");
+}
+.gallery__card:nth-child(6) {
+  background-image: url("https://cdn.pixabay.com/photo/2019/10/16/05/37/alpine-4553488_1280.jpg");
+}
+.gallery__card:nth-child(7) {
+  background-image: url("https://cdn.pixabay.com/photo/2019/11/23/03/08/valley-4646114_1280.jpg");
+}
+.gallery__card:nth-child(8) {
+  background-image: url("https://cdn.pixabay.com/photo/2015/10/04/06/52/mountain-970704_1280.jpg");
+}
+.gallery__card:nth-child(9) {
+  background-image: url("https://cdn.pixabay.com/photo/2019/06/24/16/43/mountain-4296464_1280.jpg");
+}
+.gallery__card:hover {
+  background-position: bottom left;
+}
+
+
+/* gallary */
+
+
+/* body, body *{
+  padding: 0px;
+  margin: 0px;
+} */
+
+/*all slides*/
+.slide{
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: 0.3s;
+  display: none;
+}
+
+/*all buttons*/
+.button{
+  background-color: rgba(0,0,0,0.6);
+  color: #FFF;
+  position: absolute;
+  top: calc(50% - 25px);
+  height: 70px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  font-size: 30px;
+  font-weight: 500;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/*all button arrows*/
+.button span{
+  border: 10px solid transparent;
+}
+
+/*button hover*/
+.button:hover{
+  background-color: rgba(0,0,0,1);
+}
+
+/*back button*/
+.back{
+  left: 0px;
+  border-radius: 0 10px 10px 0;
+}
+
+/*back button arrrow*/
+.back span{
+  border-right-color: #FFF;
+}
+
+/*next button*/
+.next{
+  right: 0px;
+  border-radius: 10px 0 0 10px;
+}
+
+/*next button arrow*/
+.next span{
+  border-left-color: #FFF;
+}
+
+/*all radio set*/
+.slideradio{
+  display: none;
+}
+
+/*show slide that is adjacent to checked radio control*/
+.slideradio:checked + .slide{
+  display: block;
+}
+
+/* thumbnail drawer */
+.thumbwrapper{
+  display: flex;
+  height: 20%;
+  position: absolute;
+  bottom: 10px;
+  width: calc(100% - 20px);
+  left: 10px;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+.gallary-1{
+  height: 600px;
+}
+/* each thumbnail */
+.thumb{
+  height: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0px 5px;
+  flex: 20 20 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* thumb hover effect */
+.thumb:hover{
+  opacity: 0.9;
+}
+
+/* display style for selected slide */
+/* this could be done better with sass for unknown number of slides, but could also be left out as non-essential */
+/* just keeping everything straight css for understandable demo */
+#slide0:checked ~ .thumbwrapper .slide0{
+  opacity: 1;
+  box-shadow: 0 0 30px rgba(0,0,0,1);
+  transform: scale(1.05);
+}
+#slide1:checked ~ .thumbwrapper .slide1{
+  opacity: 1;
+  box-shadow: 0 0 30px rgba(0,0,0,1);
+  transform: scale(1.05);
+}
+#slide2:checked ~ .thumbwrapper .slide2{
+  opacity: 1;
+  box-shadow: 0 0 30px rgba(0,0,0,1);
+  transform: scale(1.05);
+}
+#slide3:checked ~ .thumbwrapper .slide3{
+  opacity: 1;
+  box-shadow: 0 0 30px rgba(0,0,0,1);
+  transform: scale(1.05);
+}
+#slide4:checked ~ .thumbwrapper .slide4{
+  opacity: 1;
+  box-shadow: 0 0 30px rgba(0,0,0,1);
+  transform: scale(1.05);
+}
 
 
 
@@ -393,6 +592,14 @@ footer{
 
 
 
+
+
+
+@media screen and (max-width: 301px) {
+  .gallery__card {
+    min-width: 100%;
+ }
+}
 
 @media only screen and (max-width: 700px) {
   .responsive {
