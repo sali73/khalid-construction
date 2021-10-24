@@ -282,7 +282,6 @@ div.gallery img {
   height: 350px;
   overflow: scroll;
   width: 380px;
-  
 }
 .review h3{
   text-align: center;
@@ -710,6 +709,98 @@ object-fit: contain;
   }
 
 
+
+  /* about tab */
+.about h3{
+  font-size: 16px;
+  margin-top: 55px;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.about big{
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+  font-size: 19px;
+  font-family: 'Architects Daughter', cursive;
+}
+.about h5{
+  font-size: 19px;
+}
+.review{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url('./gallary-img/main-photos/3.jpg');
+  box-shadow: 0 0 8px rgb(66, 66, 66);
+  border: 1px solid rgb(87, 86, 86);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.review-parts {
+  background-color:rgb(182, 181, 181);
+  padding: 10px;
+}
+.reviews-window{
+  height: 150px;
+  overflow: scroll;
+  width: 100px;
+}
+.review h3{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-top: 5px;
+}
+.review-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.review-card div{
+  border-radius: 3%;
+  border: 1px solid rgb(250, 247, 247);
+  background-color: rgb(250, 247, 247);
+  margin: 10px;
+  padding: 10px;
+  height: 145px;
+  width: 330px;
+  box-shadow: 0 0 8px rgb(87, 86, 86);
+}
+.review-card h6{
+  color: rgb(5, 5, 5);
+  font-size: 20px;
+  height: 100px;
+  overflow: auto;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.review-card h3{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+.review-form{
+  margin-left: 1%;
+}
+.review-form h5{
+  font-size: 25px;
+  color: rgb(236, 232, 232);
+  padding: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  /* letter-spacing: 3px; */
+  word-spacing: 1px;
+  line-height: 40px;
+  font-weight: 800;
+}
 
 
 }
