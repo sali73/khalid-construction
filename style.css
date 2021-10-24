@@ -45,7 +45,7 @@
 .logo small{
   font-size: 23px;
 }
-.header a, .open-popup-modal {
+.header a{
   float: left;
   color: #f2f2f2;
   text-align: center;

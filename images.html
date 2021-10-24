@@ -21,9 +21,9 @@
               </div>
               <div class="topnav-right">
                   <a class="et-hero-tab" style="padding-left: 150px" href="./home.html"> Home</a>
-                  <a class="et-hero-tab" ><button id="open-popup-modal" class="btn" >Contact US </button></a>
-              </div> 
-              <div class="calling area" style="padding-left: 20%;">
+                  <a class="et-hero-tab" ><button id="open-popup-modal" class="btn" style="font-size: 20px; color:white; margin-top: -5px" >Contact US </button></a>
+                </div> 
+              <div class="calling area" style="padding-left: 16%;">
                   <a href="tel:813-995-4978">
                     <h1>
                       <i class="fa fa-phone red-color " ></i>
@@ -797,7 +797,15 @@
                    <div class="submit" style=''>   
                       <button type="submit" style="font-size: 20px; padding: 0px 20px; "> Submit</button>
                       <button type="reset" style="font-size: 20px; padding: 0px 20px; "> Reset</button>
-                  </div>                          
+                  </div>  
+                  <div class='social-media'>
+                    <h6> Or you can find me on social media!</h6>
+                    <ul class="social" >
+                        <li> <a className='' href='https://www.instagram.com/elgendy.sally/'><img src= 'https://icons.iconarchive.com/icons/uiconstock/socialmedia/48/Instagram-icon.png' alt = ''/></a></li>
+                        <li> <a className='' href='https://www.facebook.com/selgendy'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/48/Active-Facebook-icon.png' alt = ''/></a></li>
+                        <li> <a className='' href='https://twitter.com/salimoh25979'><img src= 'https://icons.iconarchive.com/icons/designbolts/pink-girly-social/48/Active-Twitter-icon.png' alt = ''/></a></li>
+                    </ul>                  
+                </div>                        
               </form>
               </div>
       <div>
@@ -805,9 +813,61 @@
 </main>
 <footer>
   <div>
-      <h6>© Copyright 2021.  NKBA Construction LLC. </h6>
+    <h6 style="padding-top: 20px">© Copyright 2021.  NKBA Construction LLC. </h6>
   </div>
 </footer>
 </div>
+<div id="popup-modal" class="modal">
+  <div class="modal-content animated bounce">
+  <a class="modal-close">×</a>
+  <div class="modal-img">
+  <img src="./img/logo.jpg" alt=""/>
+</div>
+  <div class="modal-text">
+  </div>
+  <div class="modal-footer">
+    <form action="https://formspree.io/f/xrgraakd" method="POST" >
+      <div class='form-row inputs' style=" display: flex;">
+          <div class="form-group col-md-6">
+              <input type="text" name="name"  placeholder="Enter Your Name" style="margin-right: 10px;"/>
+          </div>
+          <div class="form-group col-md-6">
+              <input type="text" name="mail" class='secInput' placeholder='What is your email?' />
+          </div>
+          </div><br>
+          <div class="form-group">
+            <textarea  name="comment" placeholder="Comment....." class="form-control" rows='5' ></textarea>
+          </div>
+          <hr/>
+          <div class="submit" style=''>   
+            <button type="submit" style="font-size: 20px; padding: 0px 20px; "> Submit</button>
+            <button type="reset" style="font-size: 20px; padding: 0px 20px; "> Reset</button>
+          </div>                          
+  </form>
+  </div>
+  </div>
+
+  <script type="module">
+    var modal = document.getElementById('popup-modal');
+    var btn = document.getElementById("open-popup-modal");
+    var span = document.getElementsByClassName("modal-close")[0];
+    btn.onclick = function() {
+    modal.style.display = "block";
+    }
+    span.onclick = function() {
+    modal.style.display = "none";
+    }
+    window.onload = function() {
+    setTimeout(function() {
+    modal.style.display = 'block';
+    }, 3000);
+    }
+    window.onclick = function(event) {
+    if (event.target == modal) {
+    modal.style.display = "none";
+    }
+    }
+</script>
+
   </body>
 </html>
