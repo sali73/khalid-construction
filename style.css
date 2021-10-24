@@ -597,8 +597,8 @@ text-decoration: none;
 font-size: 30px;
 } 
 img.lightbox-image {
-width: 65vw;
-max-height: 65vh;
+width: 85vw;
+max-height: 75vh;
 object-fit: contain;
 }
 
