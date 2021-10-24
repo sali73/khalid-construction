@@ -23,7 +23,8 @@
                     <a class="et-hero-tab" href="#tab-Service"> Services</a>
                     <a class="et-hero-tab" href="#tab-about">About Us</a>
                     <a class="et-hero-tab" href="#tab-Gallery"> Gallery</a>
-                    <a class="et-hero-tab" href="#tab-Connect">Contact US</a>
+                    <a class="et-hero-tab" ><button id="open-popup-modal" class="btn" style="font-size: 20px; color:white; margin-top: -5px" >Contact US </button></a>
+                    
                 </div> 
                 <div class="calling area">
                     <a href="tel:813-995-4978">
@@ -189,8 +190,8 @@
                 <div class="review" style="display: flex;" >
                   <div class="review-parts" >
                     <h3>Our Client Reviews!</h3>
-                      <div class="reviews-window">
-                        <div id="pastComments" class="review-card">
+                      <div class="reviews-window" >
+                        <div id="pastComments" class="review-card" >
                         </div>
                     </div> 
                   </div>
@@ -274,8 +275,61 @@
             <h6 style="padding-top: 20px">© Copyright 2021.  NKBA Construction LLC. </h6>
         </div>
       </footer>
+
+      
+      
+      <div id="popup-modal" class="modal">
+      <div class="modal-content animated bounce">
+      <a class="modal-close">×</a>
+      <div class="modal-img">
+      <img src="./img/logo.jpg" alt=""/>
+</div>
+      <div class="modal-text">
+      </div>
+      <div class="modal-footer">
+        <form action="https://formspree.io/f/xrgraakd" method="POST" >
+          <div class='form-row inputs' style=" display: flex;">
+              <div class="form-group col-md-6">
+                  <input type="text" name="name"  placeholder="Enter Your Name" style="margin-right: 10px;"/>
+              </div>
+              <div class="form-group col-md-6">
+                  <input type="text" name="mail" class='secInput' placeholder='What is your email?' />
+              </div>
+              </div><br>
+              <div class="form-group">
+                <textarea  name="comment" placeholder="Comment....." class="form-control" rows='5' ></textarea>
+              </div>
+              <hr/>
+              <div class="submit" style=''>   
+                <button type="submit" style="font-size: 20px; padding: 0px 20px; "> Submit</button>
+                <button type="reset" style="font-size: 20px; padding: 0px 20px; "> Reset</button>
+              </div>                          
+      </form>
+      </div>
+      </div>
+
+
   </div>
     <script type="module">
+      var modal = document.getElementById('popup-modal');
+var btn = document.getElementById("open-popup-modal");
+var span = document.getElementsByClassName("modal-close")[0];
+btn.onclick = function() {
+modal.style.display = "block";
+}
+span.onclick = function() {
+modal.style.display = "none";
+}
+window.onload = function() {
+setTimeout(function() {
+modal.style.display = 'block';
+}, 3000);
+}
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
       // Import the functions you need from the SDKs you need
       import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
       // TODO: Add SDKs for Firebase products that you want to use
