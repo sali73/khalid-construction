@@ -65,6 +65,13 @@
 .topnav-right {
   margin-left: 5%;
 }
+#image-nav{
+  margin-top: 30px;
+  margin-left: 170px;
+}
+#image-phone{
+  margin-left: 130px;
+}
 .header a:hover {
   text-decoration-color: rgba(255, 0, 0, 1);
   color: #f2f2f2;
@@ -916,7 +923,14 @@ padding: 10px;
 width: 75%;
 }
 
-
+#image-nav{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#image-phone{
+  margin-left: 240px;
+  margin-top: -50px;
+}
 
 }
 
