@@ -19,8 +19,7 @@
 }
 .logo{
   color: rgb(255, 0, 0);
-  /* color: rgb(255, 175, 110); */
-  margin: 2%;
+  margin: 20px 0px 10px 20px;
 }
 .blue-color {
   color:blue;
@@ -45,16 +44,23 @@
 .logo small{
   font-size: 23px;
 }
-.header a{
-  float: left;
+.header li a, .header li a button{
   color: #f2f2f2;
-  text-align: center;
-  padding: 7px;
   text-decoration: none;
   font-size: 20px;
-  margin: 55px 15px 10px 10px;
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 300ms;
+}
+.header ul{
+  display: flex;
+}
+.header li {
+  list-style: none;
+  padding-right: 20px;
+  padding-top: 13%;
+}
+.header li a button{
+  margin-top: -5px;
 }
 .topnav-right {
   margin-left: 5%;
@@ -63,15 +69,20 @@
   text-decoration-color: rgba(255, 0, 0, 1);
   color: #f2f2f2;
 }
+.header li a button:hover {
+  text-decoration-color: rgba(255, 0, 0, 1);
+  color: #f2f2f2;
+}
 .calling {
   padding-left: 9%;
+  padding-top: 4%;
 }
 .calling h1 {
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-weight: 700;
   line-height: 1;
   color: white;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-family: 'Times New Roman', Times, serif;
 }
 .calling a{
@@ -101,7 +112,6 @@
   margin: -80px auto;
   padding: 15px;
   box-shadow: 0 0 8px rgb(77, 76, 76);
-
 }
 .gran-image img{
    width: 160px;
@@ -117,7 +127,6 @@
 .intro{
   margin-top: 10%;
   margin-bottom: 5%;
-  
 }
 .intro h4{
   color: #f2f2f2;
@@ -136,6 +145,7 @@
   height: auto;
   padding-top: 10px;
 }
+/* service tab */
 .et-main .et-slide div{
   background-color: rgb(240, 235, 235);
   padding: 5%;
@@ -175,6 +185,7 @@
   font-size: 17px;
   font-family: 'Times New Roman', Times, serif;
 }
+/* gallary tab */
 .tab-Gallery{
   background-color: rgb(75, 73, 73);
   height: auto;
@@ -217,6 +228,8 @@ div.gallery img {
   text-decoration: none;
   box-shadow: 0px 0px 5px rgb(228, 228, 228);
 }
+
+/* about tab */
 .about h3{
   font-size: 22px;
   margin-top: 75px;
@@ -325,10 +338,10 @@ div.gallery img {
   line-height: 40px;
   font-weight: 800;
 }
+/* contact tab */
 .Connect-slide{
   background-color: rgb(75, 73, 73);
   box-shadow: 0 0 8px rgb(87, 86, 86);
-
   height: 490px;
   display: flex;
   justify-content: space-around;
@@ -343,7 +356,6 @@ label{
   color: #f2f2f2;
   font-family: 'Times New Roman', Times, serif;
   margin-top: 10px;
-  /* margin-left: 45%; */ 
 }
 .conect-info{
   margin-right: 10px;
@@ -364,8 +376,7 @@ label{
 .Connect-slide h5{
   font-family: 'Times New Roman', Times, serif;
   color: white;
-  font-size: 16px;
-  
+  font-size: 16px;  
 }
 .contact{
   margin-top: -20px;
@@ -381,6 +392,7 @@ button{
 .submit{
   margin-left: 20%;
 }
+/* footer tab */
 footer{
     background-color: rgb(48, 47, 47);
     height: 60px;
@@ -401,12 +413,13 @@ footer{
 }
 .social-media ul li{
   list-style: none;
-  /* width: 10%; */
   padding: 10px;
 }
 .social-media ul li img{
   width: 85%;
 }
+
+/* ///////////update gallary tab//////////// */
 .containers {
   max-width: 1300px;
   margin: auto;
@@ -437,7 +450,6 @@ footer{
 .gallery__card:nth-child(1) {
   background-image: url("./gallary-img/main-photos/8.jpg");
   background-repeat: no-repeat;
-
 }
 .gallery__card:nth-child(2) {
   background-image: url("./gallary-img/main-photos/1.JPG");
@@ -476,13 +488,12 @@ footer{
 }
 
 /* /////////////////////////////
-/* gallary 
+/* gallary page
 ///////////////////////////// */
-
 .gallary-windo{
   background-color: rgb(240, 240, 240);
-height: auto;
-margin: 10% 0px;
+  height: auto;
+  margin: 10% 0px;
 }
 .gallary-windo h2{
   color: red;
@@ -515,15 +526,6 @@ img.thumbnail-image {
   object-fit: cover;
   object-position: center center;
 }
-@media only screen and (max-width: 800px){
-#gallery-section {
-  padding: 10px 10px 0px 10px;
-}
-#thumbnail-gallery-container {
-    padding: 0px;
-}
-}
-
 /* Lightbox Styles */ 
 .lightbox-overlay {
 display: flex;
@@ -544,25 +546,21 @@ display: flex;
 transform: scale(1,1);
 z-index: 99999;
 };
-
 .lightbox-content {
 color: rgb(250,250,250);
 padding: 1.5em;
 width: 75vw;
 text-align: center;
 }
-
 .lightbox-image-title {
 position: relative;
 text-align: center;
 }
-
 .lightbox-navigation {
 display: flex;
 flex-flow: row wrap;
 justify-content: space-evenly;
 }
-
 .close {
 position: absolute;
 background-color: none;
@@ -572,19 +570,16 @@ background-color: none;
   justify-content: center;
   align-items: center;
 }
-
 a.close {
 text-decoration: none;
 font-weight: bold;
 font-size :2em;
 font-family: sans-serif;
 }
-
 .close::after {
 content: 'X';
 color: rgb(255, 0, 0);
 }
-
 .back, .next {
 display: flex;
 justify-content: center;
@@ -601,6 +596,127 @@ width: 85vw;
 max-height: 75vh;
 object-fit: contain;
 }
+
+
+
+
+/* gallary page */
+@media only screen and (max-width: 800px){
+  #gallery-section {
+    padding: 10px 10px 0px 10px;
+  }
+  #thumbnail-gallery-container {
+      padding: 0px;
+  }
+  img.thumbnail-image {
+    width: 100px;
+    height: 130px;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .gallary-windo h2{
+    color: red;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 23px;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  .logo{
+    color: rgb(255, 0, 0);
+    margin: 1%;
+  }
+  .logo h3{
+    font-size: 23px;
+  }
+  .logo small{
+    font-size: 11px;
+  }
+  .header li a, .header li a button{
+    font-size: 13px;
+  }
+  .header ul{
+    display: flex;
+  }
+  .header li {
+    list-style: none;
+    padding-right: 10px;
+    padding-top: 13%;
+  }
+  .header li a button{
+    margin-top: -5px;
+  }
+  .topnav-right {
+    margin-left: 0%;
+  }
+  .calling {
+    padding-left: 2%;
+    padding-top: 4%;
+  }
+  .calling h1 {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .header-img{
+    height: 500px;
+  }
+  .gran-image{
+    width: 84%;
+    margin: -80px auto;
+  }
+  .gran-image img{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     padding: 10px 10px;
+     margin: 0 auto;
+  }
+  .gran-image div{
+    margin-left: 13%;
+  }
+  .intro{
+    margin-top: 23%;
+    margin-bottom: 6%;
+  }
+  .intro h4{
+   font-size: 15px;
+   padding: 0px 20px;
+   letter-spacing: 1px;
+   line-height: 22px;
+   word-spacing: 1.5px;
+  }
+  .img1{
+    width: 390px;
+    height:210px;
+  }
+  .img2{
+    width: 390px;
+    height:210px;
+  }
+  .img2:hover{
+    width: 400px;
+    height:220px;
+  }
+  .img1:hover{
+    width: 400px;
+    height:220px;
+  }
+  .et-main .et-slide div h4{
+    font-size: 20px;
+  }
+
+
+
+
+}
+
+
+
+
 
 
 
@@ -729,6 +845,8 @@ cursor: pointer;
 border-radius: 3px;
 margin-bottom: -13px;
 }
+
+
 @media screen and (max-width: 27em) {
 input[type=text].modal-input{
 width:90%;
