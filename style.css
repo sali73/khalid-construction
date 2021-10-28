@@ -529,6 +529,8 @@ footer{
 }
 .bathroom-icon-list a img{
   border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 .bathroom-icon-list a{
   text-decoration: none;
@@ -736,20 +738,20 @@ object-fit: contain;
    word-spacing: 1.5px;
   }
   .img1{
-    width: 390px;
-    height:210px;
+    width: 100% ;
+    height:20%;
   }
   .img2{
-    width: 390px;
-    height:210px;
+    width: 100% ;
+    height:20%;
   }
   .img2:hover{
-    width: 400px;
-    height:220px;
+    width: 100% ;
+    height:22%;
   }
   .img1:hover{
-    width: 400px;
-    height:220px;
+    width: 100% ;
+    height:22%;
   }
   .et-main .et-slide div h4{
     font-size: 20px;
@@ -933,6 +935,21 @@ width: 75%;
   margin-left: 240px;
   margin-top: -50px;
 }
+/* gallary */
+.bathroom-icon-list{
+
+}
+.bathroom-icon-list a img{
+ 
+  width: 100px;
+  height: 100px;
+}
+.bathroom-icon-list h4{
+  font-size: 17px;
+}
+
+
+
 
 }
 
