@@ -61,7 +61,7 @@
     <main class="et-main">
 
     <section class="gallary-windo" id="tab-Service">
-          <h2>customer</h2>
+          <!-- <h2>customer</h2> -->
              <!-- Here a loader is created which 
              loads till response comes -->
         <div class="d-flex justify-content-center">
@@ -69,10 +69,8 @@
                role="status" id="loading">
               <span class="sr-only">Loading...</span>
           </div>
-      </div>
-      <h1>Registered Employees</h1>
-      <!-- table for showing data -->
-      <table id="employees"></table>
+      </div>      <!-- table for showing data -->
+      <div id="customer-returns" style="display: flex; justify-content: space-around; flex-wrap:wrap ; padding: 40px;"></div>
     </section>
     
 <section class="Connect-slide" id="tab-Connect">
@@ -162,7 +160,7 @@ const api_url =
 	show(data);
 }
 // Calling that async function
-getapi(api_url);
+getapi(api_url); 
 
 // Function to hide the loader
 function hideloader() {
@@ -170,27 +168,22 @@ function hideloader() {
 }
 // Function to define innerHTML for HTML table
 function show(data) {
-	let tab =
-		`<tr>
-		<th>Name</th>
-		<th>date</th>
-    <th>video</th>
-	
-		</tr>`;
-	
+	let tab =   `<div ></div>`
 	// Loop to access all rows
 	for (let r of data) {
-		tab += `<tr>
-	<td>${r.name} </td>
-	<td>${r.time}</td>
-  <td>
-     <iframe src=${r.video} allow="autoplay"></iframe>
-   </td>
-	
-</tr>`;
+    tab +=
+    
+    `<div style="margin:20px">
+        <div>
+          <h3 style="text-align: center;">${r.name}</h3>
+          <iframe src=${r.video} allow="autoplay"></iframe>
+          <h6 style="text-align: center;" >${r.time}</h6>
+        </div>
+    </div>`
+
 	}
 	// Setting innerHTML as tab variable
-	document.getElementById("employees").innerHTML = tab;
+	document.getElementById("customer-returns").innerHTML = tab;
 }
 
 </script>
