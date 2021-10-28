@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -21,8 +21,8 @@
             </div>
             <div class="topnav-right" >
               <ul id="image-nav">
-                <li><a class="et-hero-tab" href="./home.html"> Home</a></li>
-                <li><a class="et-hero-tab" href="./images-all.html">Back </button></a></li>
+                <li><a class="et-hero-tab" href="../home.html"> Home</a></li>
+                <li><a class="et-hero-tab" href="../kitchen.html">Back </button></a></li>
               </ul>    
             </div> 
             <div class="calling area" id="image-phone">
@@ -40,11 +40,11 @@
       <aside>
           <div class="gran-image">
               <div>
-              <img src="./img/de.jpg" alt="">
-              <img src="./img/h.jpg" alt="">
-              <img src="./img/top.png" alt="">
-              <img src="./img/remo.jpg" alt="">
-              <img src="./img/wood.jpg" alt="">
+              <img src="../img/de.jpg" alt="">
+              <img src="../img/h.jpg" alt="">
+              <img src="../img/top.png" alt="">
+              <img src="../img/remo.jpg" alt="">
+              <img src="../img/wood.jpg" alt="">
           </div>
           </div>
       </aside>
@@ -60,14 +60,50 @@
     <!-- Main -->
     <main class="et-main">
     <section class="gallary-windo" id="tab-Service">
-      <h2>kitchen gallary</h2>
-      <div>
-      
-          <a href="./kitchen-child/nancy-kitchen.html"><img width="100px" height="100px" src="./gallary-img/kichen/10.jpg" alt=""><h4>Nancy</h4></a>
-          <a href="./kitchen-child/tony-kitchen.html"><img width="100px" height="100px" src="./gallary-img/kichen/1.jpg" alt=""><h4>Tony</h4></a>
-          <a href="./kitchen-child/sally-kitchen.html"><img width="100px" height="100px" src="./gallary-img/kichen/4.jpg" alt=""><h4>Sally</h4></a>
-      </div>
-    </section>
+      <h2>Tony kitchen</h2>
+  <div id="gallery-sections">
+    <div id="thumbnail-gallery-container">
+      <!---- Top Row --->
+          <a class="thumbnail" href="#lightbox-images-1"><img class="thumbnail-image" src="../gallary-img/kichen/1.jpg" alt="Colourful abstract collage art"/></a>
+          <a class="thumbnail" href="#lightbox-images-2"><img class="thumbnail-image" src="../gallary-img/kichen/2+.jpg"/></a>
+          <a class="thumbnail" href="#lightbox-images-3"><img class="thumbnail-image" src="../gallary-img/kichen/3.jpg"alt/></a> -->
+         
+    </div><!-- thumbnail-gallery-container -->
+  </div><!--- gallery-section --->
+
+  <!-- - Lightbox overlay. Below content is hidden until :target activated --->
+  <div class="lightbox-overlay" id="lightbox-images-1">
+    <div class="lightbox-content">
+      <a class="close" href="#gallery-sections"></a>
+      <img class="lightbox-image" src="../gallary-img/kichen/1.jpg" alt="Terrarium on table." />
+        <p class="lightbox-navigation"><a class="next" href="#lightbox-images-2">Next</a></p>
+    </div>
+  </div>
+        
+  <div class="lightbox-overlay" id="lightbox-images-2">
+    <div class="lightbox-contents">
+      <a class="close" href="#gallery-section"></a>
+      <img class="lightbox-image" src="../gallary-img/kichen/2+.jpg"  alt="Potted Succulent on Table." />
+        <p class="lightbox-navigation"><a class="back" href="#lightbox-images-1">Back</a><a class="next" href="#lightbox-images-3">Next</a></p>
+    </div>
+  </div>
+
+  <div class="lightbox-overlay" id="lightbox-images-3">
+    <div class="lightbox-content">
+      <a class="close" href="#gallery-sections"></a>
+      <img class="lightbox-image" src="../gallary-img/kichen/3.jpg"  alt="Assorted succulents in a jar." />
+      <p class="lightbox-navigation"><a class="back" href="#lightbox-images-2">Back</a></p>
+    </div>
+  </div>
+
+
+  
+</section>
+
+
+
+
+
 
 <section class="Connect-slide" id="tab-Connect">
   <div class="conect-info">
@@ -136,7 +172,7 @@
   <div class="modal-content animated bounce">
   <a class="modal-close">×</a>
   <div class="modal-img">
-  <img src="./img/logo.jpg" alt=""/>
+  <img src="../img/logo.jpg" alt=""/>
 </div>
 
   
