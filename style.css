@@ -8,18 +8,14 @@
   font-family: 'Architects Daughter', cursive; 
 }
 .page{
-  background-color: dimgrey;
+  background-color: rgb(90, 90, 90);
 }
 .header{
   position: fixed;
   width:100%;
-  height: 15%;
-  background-color: rgba(49, 48, 48, .9);
+  height: 17%;
+  background-color: rgba(43, 43, 43, 0.9);
   display: flex;
-}
-.logo{
-  color: rgb(255, 71, 15);
-  margin: 20px 0px 10px 20px;
 }
 .blue-color {
   color:blue;
@@ -36,20 +32,27 @@
   .red-color {
   color:red;
   }
-.logo h3{
-  font-size: 43px;
-  font-family: 'Monoton', cursive;
-  box-shadow: 0 6px 4px -4px whitesmoke;
+.logo img{
+  margin-top: -40px;
+  width: 300px;
+  height: 210px;
 }
-.logo small{
-  font-size: 23px;
-}
-.header li a, .header li a button{
-  color: #f2f2f2;
+
+.header li a{
+  color: rgb(226, 224, 224);
   text-decoration: none;
-  font-size: 20px;
-  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
-  transition: text-decoration-color 300ms;
+  font-size: 25px;
+  /* text-decoration: underline 0.15em rgba(37, 37, 37, 0);
+  transition: text-decoration-color 300ms; */
+  font-weight: 900;
+}
+.header li a button{
+  color: rgb(226, 224, 224);
+  text-decoration: none;
+  font-size: 25px;
+  /* text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms; */
+  font-weight: 900;
 }
 .header ul{
   display: flex;
@@ -63,7 +66,7 @@
   margin-top: -5px;
 }
 .topnav-right {
-  margin-left: 5%;
+  margin-left: 11%;
 }
 #image-nav{
   margin-top: 30px;
@@ -73,22 +76,20 @@
   margin-left: 130px;
 }
 .header a:hover {
-  text-decoration-color: rgb(40, 97, 255);
-  color: #f2f2f2;
+  text-decoration-color: rgb(255, 102, 0);
 }
 .header li a button:hover {
   text-decoration-color: rgb(40, 97, 255);
-  color: #f2f2f2;
 }
 .calling {
-  padding-left: 9%;
-  padding-top: 4%;
+  padding-left: 13%;
+  padding-top: 5%;
 }
 .calling h1 {
   font-size: 1.6em;
   font-weight: 700;
   line-height: 1;
-  color: white;
+  color: rgb(255, 81, 0);
   letter-spacing: 3px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -114,7 +115,7 @@
   height: 600px;
 }
 .gran-image{
-  background-color: rgba(255, 89, 11, 0.8);
+  background-color: rgba(250, 111, 46, 0.8);
   width: 61%;
   margin: -80px auto;
   padding: 15px;
@@ -134,9 +135,10 @@
 .intro{
   margin-top: 10%;
   margin-bottom: 5%;
+  
 }
 .intro h4{
-  color: #f2f2f2;
+  color: rgb(255, 255, 255);
   font-weight: 900;
  padding: 0px 80px;
  text-align: center;
@@ -154,7 +156,7 @@
 }
 /* service tab */
 .et-main .et-slide div{
-  background-color: rgb(240, 235, 235);
+  background-color: rgb(235, 235, 235);
   padding: 5%;
   margin: 10% 5%;
 }
@@ -183,7 +185,7 @@
   height:420px;
 }
 .et-main .et-slide div h4{
-  color: rgb(255, 71, 15);
+  color: rgb(255, 89, 11);
   font-weight: 600;
   font-size: 30px;
   text-shadow: 0 0 2px rgb(83, 83, 83);
@@ -194,7 +196,7 @@
 }
 /* gallary tab */
 .tab-Gallery{
-  background-color: rgb(75, 73, 73);
+  background-color: rgb(90, 90, 90);
   height: auto;
   padding: 90px;
   box-shadow: 0 0 8px rgb(87, 86, 86);
@@ -244,8 +246,8 @@ div.gallery img {
   font-family: 'Times New Roman', Times, serif;
 }
 .about big{
-  color: rgb(255, 71, 15);
-  font-weight: 600;
+  color: rgb(255, 89, 11);
+    font-weight: 600;
   font-size: 25px;
   font-family: 'Architects Daughter', cursive;
 }
@@ -256,10 +258,10 @@ div.gallery img {
 }
 .about li{
   list-style: none;
-  color: rgb(255, 71, 15);
+  color: rgb(255, 89, 11);
 }
 .about{
-  background-color: rgb(240, 235, 235);
+    background-color: rgb(240, 235, 235);
     height: auto;
     padding: 5%;
     margin-top: 10%;
@@ -283,7 +285,7 @@ div.gallery img {
   display: flex;
 }
 .review-parts {
-  background-color:rgb(182, 181, 181);
+  background-color: rgb(90, 90, 90);
   padding: 10px;
 }
 .reviews-window{
@@ -293,7 +295,9 @@ div.gallery img {
 }
 .review h3{
   text-align: center;
-  color: rgb(255, 71, 15);
+  /* color: rgb(17, 64, 196); */
+  color: rgb(253, 140, 87);
+
   font-size: 30px;
   margin-top: 5px;
 }
@@ -326,7 +330,7 @@ div.gallery img {
   font-size: 20px;
   padding: 10px;
   font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(40, 97, 255);
+  background-color: rgb(253, 140, 87);
   text-align: center;
   margin-bottom: 10px;
   margin-top: -5px;
@@ -359,6 +363,7 @@ div.gallery img {
   margin-left: 19%;
   font-size: 20px;
   padding: 0px 20px;
+  border-radius: 5%;
 }
 .review-form h5{
   font-size: 25px;
@@ -372,7 +377,7 @@ div.gallery img {
 }
 /* contact tab */
 .Connect-slide{
-  background-color: rgb(75, 73, 73);
+  background-color: rgb(90, 90, 90);
   box-shadow: 0 0 8px rgb(87, 86, 86);
   height: 490px;
   display: flex;
@@ -387,9 +392,10 @@ label{
   width: 300px;
 }
 .Connect-slide h3{
-  color: rgb(255, 71, 15);
+  color: rgb(255, 144, 93);
+  font-size: large;
   padding-top: 15px;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: -15px;
 }
 .Connect-slide h4{
@@ -422,7 +428,7 @@ button{
 }
 /* footer tab */
 footer{
-    background-color: rgb(48, 47, 47);
+  background-color: rgb(56, 56, 56);
     height: 60px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -434,7 +440,8 @@ footer{
   margin-left: 30px;
 }
 .social-media h6{
-  color: rgb(255, 71, 15);
+  color: rgb(255, 144, 93);
+  font-size: large;
 }
 .social-media ul {
   display: flex;
@@ -463,7 +470,7 @@ footer{
   margin: 50px 0;
   font-size: 3rem;
   text-transform: uppercase;
-  color: rgb(255, 71, 15);
+  color: rgb(255, 89, 11);
 }
 .gallery__card {
   min-width: 350px;
@@ -538,8 +545,8 @@ footer{
   margin: 10% 0px;
 }
 .gallary-windo h2{
-  color: rgb(255, 71, 15);
-  text-align: center;
+  color: rgb(255, 89, 11);
+    text-align: center;
   padding: 60px 0px 30px 0px;
   font-size: 36px;
   font-weight: 900;
@@ -620,7 +627,7 @@ font-family: sans-serif;
 }
 .close::after {
 content: 'X';
-color: rgb(255, 71, 15);
+color: rgb(255, 89, 11);
 }
 .back, .next {
 display: flex;
@@ -628,7 +635,7 @@ justify-content: center;
 align-items: center;
 width: 24%;
 height: 2em;
-color: rgb(255, 71, 15);
+color: rgb(255, 89, 11);
 margin: 1%;
 text-decoration: none;
 font-size: 30px;
@@ -653,7 +660,7 @@ object-fit: contain;
   }
   .calling h1 {
     font-size: 1.2em;
-   
+  
   }
 }
 
@@ -800,11 +807,6 @@ object-fit: contain;
   font-size: 25px;
   margin-top: 10px;
 }
-/* .review-card{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
 .review-card div{
   margin: 10px;
   padding: 10px;
@@ -953,49 +955,29 @@ width: 75%;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 301px) {
   .gallery__card {
     min-width: 100%;
  }
 }
-
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
-
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
   }
 }
-
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-
-
-
-
-
 /* contact box */
-
 .modal{
 display: none;
 position: fixed;
@@ -1085,7 +1067,6 @@ cursor: pointer;
 border-radius: 3px;
 margin-bottom: -13px;
 }
-
 
 @media screen and (max-width: 27em) {
 input[type=text].modal-input{
