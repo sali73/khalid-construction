@@ -690,61 +690,63 @@ object-fit: contain;
   }
   .header{
     height: auto;
-    display: block;
+    display: flex;
   }
   .logo{
     color: rgb(255, 71, 15);
-    margin: 5% 2%;
+    margin: 0% 0%;
   }
-  .logo h3{
-    font-size: 36px;
-  }
-  .logo small{
-    font-size: 21px;
+  .logo img{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    height: 200px;
+    width: 170px;
   }
   .header li a, .header li a button{
-    font-size: 18px;
+    font-size: 19px;
   }
   .header ul{
-    display: flex;
+    display: block;
   }
   .header li {
     list-style: none;
     padding-right: 30px;
-    padding-top: 3%;
+    padding-top: 0%;
+    margin-top: 7px;
   }
   .header li a button{
     margin-top: -5px;
+    margin-left: -18px;
   }
   .topnav-right {
     margin-left: 0%;
   }
   .calling {
-    padding-left: 5%;
-    padding-top: 1%;
+    padding-top: 13%;
+    margin-left: -10px;
   }
   .calling h1 {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 700;
-    line-height: 1;
+    /* line-height: 1; */
     color: white;
     letter-spacing: 2px;
-    font-family: 'Times New Roman', Times, serif;
-    
+    font-family: 'Times New Roman', Times, serif; 
   }
   .header-img{
     height: 500px;
   }
   .gran-image{
-    width: 84%;
+    width: 94%;
     margin: -80px auto;
   }
   .gran-image img{
-     width: 100px;
-     height: 100px;
+     width: 80px;
+     height: 80px;
      border-radius: 50%;
      padding: 10px 10px;
      margin: 0 auto;
+     margin-left: -1px;
   }
   .gran-image div{
     margin-left: 13%;
@@ -781,6 +783,7 @@ object-fit: contain;
   }
 
   /* about tab */
+
 .about h3{
   font-size: 16px;
   margin-top: 55px;
@@ -794,9 +797,8 @@ object-fit: contain;
   font-family: 'Architects Daughter', cursive;
 }
 .about h5{
-  font-size: 19px;
+  font-size: 16px;
 }
-
 .review{
   display: block;
 }
