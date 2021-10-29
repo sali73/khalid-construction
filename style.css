@@ -653,17 +653,7 @@ object-fit: contain;
 .page{
   font-size: medium;
 }
-  .header{
-    height: 20%;
-  }
-  .calling {
-    padding-left: 0%;
-    padding-top: 5.5%;
-  }
-  .calling h1 {
-    font-size: 1.2em;
   
-  }
 }
 
 @media only screen and (max-width: 800px){
@@ -781,9 +771,7 @@ object-fit: contain;
   .et-main .et-slide div h4{
     font-size: 20px;
   }
-
   /* about tab */
-
 .about h3{
   font-size: 16px;
   margin-top: 55px;
