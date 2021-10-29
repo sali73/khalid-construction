@@ -646,7 +646,6 @@ object-fit: contain;
 /* gallary page */
 @media only screen and (max-width: 1350px){
 *{
-  font-size: small;
 }
   
 }
@@ -696,7 +695,7 @@ object-fit: contain;
     list-style: none;
   }
   .nav-li {
-    margin-left: 0px;
+    margin-left: -15px;
   }
   .nav-li li{
     padding: 10px;
@@ -717,16 +716,6 @@ object-fit: contain;
   .calling a{
     text-decoration: none;
   }
-
-
-
-
-
-
-
-
-
-
   .header-img{
     height: 500px;
   }
@@ -801,7 +790,7 @@ object-fit: contain;
 .reviews-window{
   height: 350px;
   overflow: scroll;
-  width: 330px;
+  width: 300px;
 }
 .review h3{
   font-size: 25px;
