@@ -18,7 +18,7 @@
   display: flex;
 }
 .logo{
-  color: rgb(255, 0, 0);
+  color: rgb(255, 71, 15);
   margin: 20px 0px 10px 20px;
 }
 .blue-color {
@@ -183,7 +183,7 @@
   height:420px;
 }
 .et-main .et-slide div h4{
-  color: rgb(255, 0, 0);
+  color: rgb(255, 71, 15);
   font-weight: 600;
   font-size: 30px;
   text-shadow: 0 0 2px rgb(83, 83, 83);
@@ -228,7 +228,7 @@ div.gallery img {
   margin-top: 20px;
   color: #f2f2f2;
   font-size: 20px;
-  border: 1px solid rgb(255, 0, 0);
+  border: 1px solid rgb(255, 71, 15);
   padding: 15px;
   font-family: 'Times New Roman', Times, serif;
   background-color:rgb(40, 97, 255);
@@ -244,7 +244,7 @@ div.gallery img {
   font-family: 'Times New Roman', Times, serif;
 }
 .about big{
-  color: rgb(255, 0, 0);
+  color: rgb(255, 71, 15);
   font-weight: 600;
   font-size: 25px;
   font-family: 'Architects Daughter', cursive;
@@ -256,7 +256,7 @@ div.gallery img {
 }
 .about li{
   list-style: none;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 71, 15);
 }
 .about{
   background-color: rgb(240, 235, 235);
@@ -293,7 +293,7 @@ div.gallery img {
 }
 .review h3{
   text-align: center;
-  color: rgb(40, 97, 255);
+  color: rgb(255, 71, 15);
   font-size: 30px;
   margin-top: 5px;
 }
@@ -387,7 +387,7 @@ label{
   width: 300px;
 }
 .Connect-slide h3{
-  color: rgb(255, 0, 0);
+  color: rgb(255, 71, 15);
   padding-top: 15px;
   font-size: 18px;
   margin-top: -15px;
@@ -434,7 +434,7 @@ footer{
   margin-left: 30px;
 }
 .social-media h6{
-  color: red;
+  color: rgb(255, 71, 15);
 }
 .social-media ul {
   display: flex;
@@ -463,7 +463,7 @@ footer{
   margin: 50px 0;
   font-size: 3rem;
   text-transform: uppercase;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 71, 15);
 }
 .gallery__card {
   min-width: 350px;
@@ -538,7 +538,7 @@ footer{
   margin: 10% 0px;
 }
 .gallary-windo h2{
-  color: red;
+  color: rgb(255, 71, 15);
   text-align: center;
   padding: 60px 0px 30px 0px;
   font-size: 36px;
@@ -620,7 +620,7 @@ font-family: sans-serif;
 }
 .close::after {
 content: 'X';
-color: rgb(255, 0, 0);
+color: rgb(255, 71, 15);
 }
 .back, .next {
 display: flex;
@@ -628,7 +628,7 @@ justify-content: center;
 align-items: center;
 width: 24%;
 height: 2em;
-color: rgb(255, 0, 0);
+color: rgb(255, 71, 15);
 margin: 1%;
 text-decoration: none;
 font-size: 30px;
@@ -671,7 +671,7 @@ object-fit: contain;
     object-position: center center;
   }
   .gallary-windo h2{
-    color: red;
+    color: rgb(255, 71, 15);
     text-align: center;
     padding: 30px 0px;
     font-size: 23px;
@@ -684,7 +684,7 @@ object-fit: contain;
     display: block;
   }
   .logo{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 71, 15);
     margin: 5% 2%;
   }
   .logo h3{
@@ -779,7 +779,7 @@ object-fit: contain;
   font-family: 'Times New Roman', Times, serif;
 }
 .about big{
-  color: rgb(255, 0, 0);
+  color: rgb(255, 71, 15);
   font-weight: 600;
   font-size: 19px;
   font-family: 'Architects Daughter', cursive;
@@ -825,7 +825,7 @@ object-fit: contain;
   font-size: 18px;
   padding: 10px;
   font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(255, 71, 15);
   text-align: center;
   margin-bottom: 10px;
   margin-top: -5px;
@@ -874,7 +874,7 @@ label{
   width: 300px;
 }
 .Connect-slide h3{
-  color: rgb(255, 0, 0);
+  color: rgb(255, 71, 15);
   padding-top: 15px;
   font-size: 18px;
   margin-top: -15px;
@@ -899,7 +899,7 @@ input{
  padding-top: 5px;
 }
 button{
-  background-color:rgb(255, 0, 0);
+  background-color:rgb(255, 71, 15);
   color: #f2f2f2;
 }
 #your-name{
@@ -923,7 +923,7 @@ margin-left: 0px;
 padding-top: 20px;
 }
 .social-media h6{
-color: red;
+color: rgb(255, 71, 15);
 }
 .social-media ul {
 display: flex;
