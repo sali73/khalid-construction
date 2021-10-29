@@ -73,11 +73,11 @@
   margin-left: 130px;
 }
 .header a:hover {
-  text-decoration-color: rgba(255, 0, 0, 1);
+  text-decoration-color: rgb(40, 97, 255);
   color: #f2f2f2;
 }
 .header li a button:hover {
-  text-decoration-color: rgba(255, 0, 0, 1);
+  text-decoration-color: rgb(40, 97, 255);
   color: #f2f2f2;
 }
 .calling {
@@ -114,8 +114,8 @@
   height: 600px;
 }
 .gran-image{
-  background-color: rgba(177, 0, 0,.8);
-  width: 74%;
+  background-color: rgba(255, 89, 11, 0.8);
+  width: 61%;
   margin: -80px auto;
   padding: 15px;
   box-shadow: 0 0 8px rgb(77, 76, 76);
@@ -231,7 +231,7 @@ div.gallery img {
   border: 1px solid rgb(255, 0, 0);
   padding: 15px;
   font-family: 'Times New Roman', Times, serif;
-  background-color:rgb(255, 0, 0);
+  background-color:rgb(40, 97, 255);
   text-decoration: none;
   box-shadow: 0px 0px 5px rgb(228, 228, 228);
 }
@@ -293,7 +293,7 @@ div.gallery img {
 }
 .review h3{
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(40, 97, 255);
   font-size: 30px;
   margin-top: 5px;
 }
@@ -326,7 +326,7 @@ div.gallery img {
   font-size: 20px;
   padding: 10px;
   font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(40, 97, 255);
   text-align: center;
   margin-bottom: 10px;
   margin-top: -5px;
@@ -351,9 +351,8 @@ div.gallery img {
   width: 57%;
 }
 #btnSubmitComment{
-  
   padding: 5px 10px;
-  background-color:rgb(255, 0, 0);
+  background-color:rgb(40, 97, 255);
   color: #f2f2f2;
   font-family: 'Times New Roman', Times, serif;
   margin-top: 10px;
@@ -361,14 +360,12 @@ div.gallery img {
   font-size: 20px;
   padding: 0px 20px;
 }
-
 .review-form h5{
   font-size: 25px;
   color: rgb(236, 232, 232);
   padding: 20px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-  /* letter-spacing: 3px; */
   word-spacing: 1px;
   line-height: 40px;
   font-weight: 800;
@@ -414,7 +411,7 @@ input{
  padding-top: 5px;
 }
 button{
-  background-color:rgb(255, 0, 0);
+  background-color:rgb(40, 97, 255);
   color: #f2f2f2;
 }
 .submit{
@@ -529,8 +526,8 @@ footer{
 }
 .bathroom-icon-list a img{
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 190px;
+  height: 190px;
 }
 .bathroom-icon-list a{
   text-decoration: none;
@@ -543,8 +540,8 @@ footer{
 .gallary-windo h2{
   color: red;
   text-align: center;
-  padding: 60px 0px;
-  font-size: 43px;
+  padding: 60px 0px 30px 0px;
+  font-size: 36px;
   font-weight: 900;
   letter-spacing: 2px;
 }
