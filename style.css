@@ -682,10 +682,10 @@ object-fit: contain;
     margin-left: -70px;
   }
   .header li a{
-    font-size: 17px;
+    font-size: 16px;
   }
   .header li a button{
-    font-size: 17px;
+    font-size: 16px;
   }
   .header ul{
     display: block;
@@ -695,10 +695,10 @@ object-fit: contain;
     list-style: none;
   }
   .nav-li {
-    margin-left: -20px;
+    margin-left: -25px;
   }
   .nav-li li{
-    padding: 10px;
+    padding: 5px;
     font-size: medium;
     margin-top: -10%;
   }
@@ -710,7 +710,7 @@ object-fit: contain;
   }
   .calling h1 {
     font-size: .9em;
-    margin-top: 0px;
+    margin-top: -5px;
     margin-left: 100px;
   }
   .calling a{
@@ -790,7 +790,7 @@ object-fit: contain;
 .reviews-window{
   height: 350px;
   overflow: scroll;
-  width: 300px;
+  width: 280px;
 }
 .review h3{
   font-size: 25px;
@@ -800,7 +800,7 @@ object-fit: contain;
   margin: 10px;
   padding: 10px;
   height: 145px;
-  width: 300px;
+  width: 250px;
 }
 .review-card h6{
   color: rgb(5, 5, 5);
