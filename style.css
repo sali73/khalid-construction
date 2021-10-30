@@ -765,6 +765,9 @@ object-fit: contain;
     font-size: 20px;
   }
   /* about tab */
+  .about-logo li{
+    padding: 10px;
+  }
 .about h3{
   font-size: 16px;
   margin-top: 55px;
