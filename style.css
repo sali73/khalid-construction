@@ -695,7 +695,7 @@ object-fit: contain;
     list-style: none;
   }
   .nav-li {
-    margin-left: -25px;
+    margin-left: -18px;
   }
   .nav-li li{
     padding: 8px;
@@ -755,11 +755,11 @@ object-fit: contain;
   }
   .img2:hover{
     width: 100% ;
-    height:22%;
+    height:20%;
   }
   .img1:hover{
     width: 100% ;
-    height:22%;
+    height:20%;
   }
   .et-main .et-slide div h4{
     font-size: 20px;
@@ -824,9 +824,6 @@ object-fit: contain;
   margin-bottom: 10px;
   margin-top: -5px;
 }
-/* .review-form{
-  margin-left: 1%;
-} */
 .review-form h5{
   font-size: 16px;
 }
@@ -848,10 +845,9 @@ object-fit: contain;
   margin-bottom: 20px;
 }
 .review-form h5{
-  font-size: 20px;
+  font-size: 14px;
   color: rgb(236, 232, 232);
   padding: 10px;
-  /* letter-spacing: 3px; */
   word-spacing: 1px;
   line-height: 40px;
   font-weight: 800;
