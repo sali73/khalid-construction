@@ -732,16 +732,25 @@ object-fit: contain;
   .header-img{
     height: 500px;
   }
-
+/* image-all-page */
   #folder-nav{
-    margin-top: 30px;
-    margin-left: 10px;
+    margin-top: -20px;
+    margin-left: 90px;
     margin-right: 80px;
   }
+  #folder-nav li a{
+    margin-right: 10px;
+    font-size: 19px;
+  }
+  /* all- image-folders */
   #folder-nav-2{
-    margin-top: 60px;
-    margin-left: 350px;
-    margin-right: 120px;
+    margin-top: -20px;
+    margin-left: 110px;
+    margin-right: 80px;
+  }
+  #folder-nav-2 li a{
+    margin-right: 10px;
+    font-size: 19px;
   }
   .gran-image{
     width: 94%;
