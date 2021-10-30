@@ -735,11 +735,11 @@ object-fit: contain;
 /* image-all-page */
   #folder-nav{
     margin-top: -20px;
-    margin-left: 90px;
+    margin-left: 70px;
     margin-right: 80px;
   }
   #folder-nav li a{
-    margin-right: 10px;
+    margin-right: 5px;
     font-size: 19px;
   }
   /* all- image-folders */
