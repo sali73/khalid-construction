@@ -732,13 +732,14 @@ object-fit: contain;
   .header-img{
     height: 500px;
   }
+
   #folder-nav{
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 80px;
   }
   #folder-nav-2{
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 350px;
     margin-right: 120px;
   }
@@ -965,7 +966,6 @@ width: 75%;
   font-size: 17px;
 }
 
-/* gallary */
 
 
 
