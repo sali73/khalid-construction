@@ -32,7 +32,7 @@
   color:red;
   }
 .logo img{
-  margin-top: -15%;
+  margin-top: -17%;
   width: 300px;
   height: 210px;
   margin-left: -70px;
@@ -146,8 +146,9 @@ ul .nav-li {
   font-weight: 900;
   padding: 0px 80px;
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   line-height: 40px;
+  font-size: 18px;
 }
 .et-main {
   background: url(./img/bathrom1.jpg) ;
@@ -189,10 +190,10 @@ ul .nav-li {
   height:420px;
 }
 .et-main .et-slide div h4{
-  color: rgb(255, 89, 11);
+  color: rgb(252, 143, 0);
   font-weight: 600;
   font-size: 30px;
-  text-shadow: 0 0 2px rgb(83, 83, 83);
+  text-shadow: 0 0 2px rgb(46, 45, 45);
 }
 .et-main .et-slide div p{
   font-size: 17px;
@@ -248,7 +249,7 @@ div.gallery img {
   font-family: 'Times New Roman', Times, serif;
 }
 .about big{
-  color: rgb(255, 89, 11);
+  color: rgb(252, 143, 0);
     font-weight: 600;
   font-size: 25px;
   font-family: 'Architects Daughter', cursive;
@@ -260,7 +261,7 @@ div.gallery img {
 }
 .about li{
   list-style: none;
-  color: rgb(255, 89, 11);
+  color: rgb(252, 143, 0);
 }
 .about{
     background-color: rgb(240, 235, 235);
